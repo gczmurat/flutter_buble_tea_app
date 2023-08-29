@@ -13,7 +13,7 @@ class BottomNavBar extends StatelessWidget {
       onTabChange: (value) => onTabChange!(value),
       activeColor: Colors.white,
       gap: 8,
-      //tabBackgroundColor: Colors.brown.shade300,
+      tabBackgroundColor: Colors.brown.shade300,
       hoverColor: Colors.black,
       tabBorderRadius: 12,
       tabActiveBorder: Border.all(color: Colors.white),

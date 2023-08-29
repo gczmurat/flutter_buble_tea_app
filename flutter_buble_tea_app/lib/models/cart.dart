@@ -3,10 +3,10 @@ import 'package:flutter_buble_tea_app/models/drink.dart';
 
 class Cart extends ChangeNotifier{
   final List<Drink> _shop = [
-    Drink(name: "Sütlü Buble Tea", price: "55", image: "images/buble3.png"),
     Drink(name: "Karamelli Buble Tea", price: "60", image: "images/buble1.png"),
     Drink(name: "Çukulatalı Buble Tea", price: "60", image: "images/buble2.png"),
-    Drink(name: "Çilekli Buble Tea", price: "65", image: "images/buble4.png")
+    Drink(name: "Sütlü Buble Tea", price: "55", image: "images/buble4.png"),
+    Drink(name: "Çilekli Buble Tea", price: "65", image: "images/buble3.png")
   ];
 
   final List<Drink> _userCart = [];
